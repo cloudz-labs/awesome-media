@@ -1,0 +1,19 @@
+server:
+  port: ${PORT:8080}
+  
+management:
+  security:
+    enabled: false
+
+spring:
+  application:
+    name: awesome-media-frontend    
+  thymeleaf:
+    prefix: classpath:/static/html/
+                
+api:
+  bff:
+    path: /
+  services:
+    url: http://localhost:8090
+            

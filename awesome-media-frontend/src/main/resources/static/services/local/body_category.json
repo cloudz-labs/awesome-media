@@ -1,0 +1,33 @@
+[
+	{
+		"id": "sf_fantasy",
+		"name": "SF 및 판타지 영화"
+	}, {
+		"id": "action",
+		"name": "액션 모험"
+	}, {
+		"id": "comedy",
+		"name": "코미디"
+	}, {
+		"id": "horror",
+		"name": "공포 영화"
+	}, {
+		"id": "tv",
+		"name": "TV 프로그램"
+	}, {
+		"id": "drama",
+		"name": "드라마 영화"
+	}, {
+		"id": "romance",
+		"name": "로맨스 영화"
+	}, {
+		"id": "korean",
+		"name": "한국 영화"
+	}, {
+		"id": "winner",
+		"name": "수상작"
+	}, {
+		"id": "family_kids",
+		"name": "가족/아동 영화"
+	}
+]
