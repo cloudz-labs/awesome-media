@@ -55,3 +55,4 @@ buildNumber.properties
 # sftp configuration file
 sftp-config.json
 
+.idea/
