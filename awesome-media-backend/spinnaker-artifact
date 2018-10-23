@@ -1,6 +1,6 @@
 {
   "type": "github/file",
-  "reference": "https://api.github.com/repos/cloudz-labs/awesome-media/blob/master/awesome-media-backend/awesome-media-backend-deployment.yaml",
+  "reference": "https://api.github.com/repos/cloudz-labs/awesome-media/contents/awesome-media-backend/awesome-media-backend-deployment.yaml",
   "name": "awesome-media-backend/awesome-media-backend-deployment.yaml",
   "version": "1111"
 }
