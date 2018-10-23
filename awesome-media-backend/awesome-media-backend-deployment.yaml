@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: awesome-media-backend
-        image: dtlabs/awesome-media-backend:test
+        image: dtlabs/awesome-media-backend:1.0
         ports:
         - containerPort: 8090
         imagePullPolicy: Always
