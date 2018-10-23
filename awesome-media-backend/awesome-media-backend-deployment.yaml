@@ -1,0 +1,29 @@
+apiVersion: apps/v1beta2 # for versions before 1.8.0 use apps/v1beta1
+kind: Deployment
+metadata:
+  name: awesome-media-backend-deployment
+  labels:
+    app: awesome-media-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: awesome-media-backend
+  template:
+    metadata:
+      labels:
+        app: awesome-media-backend
+    spec:
+      containers:
+      - name: awesome-media-backend
+        image: dtlabs/awesome-media-backend:test
+        ports:
+        - containerPort: 8090
+        imagePullPolicy: Always
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "50m"
+          limits: 
+            memory: "1Gi" 
+            cpu: "500m"
