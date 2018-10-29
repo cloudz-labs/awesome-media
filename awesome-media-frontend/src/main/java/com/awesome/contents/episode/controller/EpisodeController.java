@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.awesome.api.contents.service.ContentsService;
 import com.awesome.contents.episode.service.EpisodeService;
 import com.awesome.contents.episode.vo.Season;
-import com.awesome.contents.service.ContentsService;
 import com.awesome.contents.vo.Content;
 
 @RestController
